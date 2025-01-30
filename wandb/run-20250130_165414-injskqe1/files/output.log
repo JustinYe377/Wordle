@@ -1,0 +1,98 @@
+Running epoch 0
+/mnt/c/CS5900/wordle/wordle_rl.py:5949: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  self.act_buf[self.ptr] = act
+/mnt/c/CS5900/wordle/wordle_rl.py:5951: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  self.val_buf[self.ptr] = val
+/mnt/c/CS5900/wordle/wordle_rl.py:5952: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  self.logp_buf[self.ptr] = logp
+Total reward 147.93500000000597
+Entropy: 3.888171911239624
+Policy loss: -0.03349487856030464
+Value loss: 0.7312551736831665
+Num games: 1751
+Num correct: 193
+Guessed 36 in 1 attempts
+Guessed 33 in 2 attempts
+Guessed 32 in 3 attempts
+Guessed 31 in 4 attempts
+Guessed 37 in 5 attempts
+Guessed 24 in 6 attempts
+Win Rate: 0.11 (193/1751)
+Running epoch 1
+Total reward 100.76000000000525
+Entropy: 3.8755569458007812
+Policy loss: -0.029919931665062904
+Value loss: 0.6645737290382385
+Num games: 1747
+Num correct: 175
+Guessed 39 in 1 attempts
+Guessed 31 in 2 attempts
+Guessed 29 in 3 attempts
+Guessed 29 in 4 attempts
+Guessed 20 in 5 attempts
+Guessed 27 in 6 attempts
+Win Rate: 0.10 (175/1747)
+Running epoch 2
+Total reward 136.0550000000044
+Entropy: 3.861074209213257
+Policy loss: -0.03011505678296089
+Value loss: 0.7095330953598022
+Num games: 1754
+Num correct: 206
+Guessed 44 in 1 attempts
+Guessed 30 in 2 attempts
+Guessed 29 in 3 attempts
+Guessed 34 in 4 attempts
+Guessed 32 in 5 attempts
+Guessed 37 in 6 attempts
+Win Rate: 0.12 (206/1754)
+Running epoch 3
+Total reward 205.49000000000086
+Entropy: 3.8475804328918457
+Policy loss: -0.02897816151380539
+Value loss: 0.6747615933418274
+Num games: 1743
+Num correct: 189
+Guessed 30 in 1 attempts
+Guessed 34 in 2 attempts
+Guessed 29 in 3 attempts
+Guessed 26 in 4 attempts
+Guessed 38 in 5 attempts
+Guessed 32 in 6 attempts
+Win Rate: 0.11 (189/1743)
+Running epoch 4
+Total reward 201.10500000000684
+Entropy: 3.8285253047943115
+Policy loss: -0.03369666263461113
+Value loss: 0.7015703320503235
+Num games: 1752
+Num correct: 199
+Guessed 40 in 1 attempts
+Guessed 25 in 2 attempts
+Guessed 37 in 3 attempts
+Guessed 33 in 4 attempts
+Guessed 36 in 5 attempts
+Guessed 28 in 6 attempts
+Win Rate: 0.11 (199/1752)
+Running epoch 5
+Total reward 375.8949999999788
+Traceback (most recent call last):
+  File "/mnt/c/CS5900/wordle/wordle_rl.py", line 6166, in <module>
+    loss_v.backward()
+  File "/home/justin/.local/lib/python3.10/site-packages/torch/_tensor.py", line 626, in backward
+    torch.autograd.backward(
+  File "/home/justin/.local/lib/python3.10/site-packages/torch/autograd/__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "/home/justin/.local/lib/python3.10/site-packages/torch/autograd/graph.py", line 823, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/mnt/c/CS5900/wordle/wordle_rl.py", line 6166, in <module>
+    loss_v.backward()
+  File "/home/justin/.local/lib/python3.10/site-packages/torch/_tensor.py", line 626, in backward
+    torch.autograd.backward(
+  File "/home/justin/.local/lib/python3.10/site-packages/torch/autograd/__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "/home/justin/.local/lib/python3.10/site-packages/torch/autograd/graph.py", line 823, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

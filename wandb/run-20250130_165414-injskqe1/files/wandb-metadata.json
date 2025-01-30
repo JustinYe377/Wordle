@@ -1,0 +1,31 @@
+{
+  "os": "Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "python": "CPython 3.10.12",
+  "startedAt": "2025-01-30T21:54:14.759712Z",
+  "program": "/mnt/c/CS5900/wordle/wordle_rl.py",
+  "codePath": "wordle_rl.py",
+  "git": {
+    "remote": "https://github.com/JustinYe377/Wordle.git",
+    "commit": "721e5ff078e50db332959d87b6ae259a1dcc4571"
+  },
+  "email": "yejustin213@gmail.com",
+  "root": "/mnt/c/CS5900/wordle",
+  "host": "Castilla",
+  "executable": "/usr/bin/python3",
+  "codePathLocal": "wordle_rl.py",
+  "cpu_count": 8,
+  "cpu_count_logical": 16,
+  "disk": {
+    "/": {
+      "total": "1081101176832",
+      "used": "15729774592"
+    }
+  },
+  "memory": {
+    "total": "8164556800"
+  },
+  "cpu": {
+    "count": 8,
+    "countLogical": 16
+  }
+}
